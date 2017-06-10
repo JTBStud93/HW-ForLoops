@@ -3,7 +3,7 @@ Watch read and practice from the module: For Loops, Foreach Loops. Write your un
 
 1)
 
-for (int x = 5; x < 10; x++)
+for(int x = 5; x < 10; x++)
 {
   print("Value of x: {0}", x);
 }
@@ -18,7 +18,7 @@ Value of x: 9
 
 2)
 
-for (int x = 4; x < 12; x+=2)
+for(int x = 4; x < 12; x+=2)
 {
   print(x);
 }
@@ -32,7 +32,7 @@ for (int x = 4; x < 12; x+=2)
 
 3)
 
-for (int x = 18; x > 7; x-=3)
+for(int x = 18; x > 7; x-=3)
 {
   print(x);
 }
@@ -47,7 +47,7 @@ for (int x = 18; x > 7; x-=3)
 4)
 
 int x = 4;
-for ( ; x > 0; x-=1)
+for( ; x > 0; x-=1)
 {
   print(x);
 }
@@ -62,7 +62,7 @@ for ( ; x > 0; x-=1)
 5)
 
 int x = 4;
-for ( ; x > 0; )
+for( ; x > 0; )
 {
   print(x);
   x-=1;
@@ -77,7 +77,7 @@ for ( ; x > 0; )
 
 6)
 
-for (x = 0; x < 6; x++)
+for(x = 0; x < 6; x++)
 {
   if (x == 4);
     continue;
@@ -95,7 +95,7 @@ for (x = 0; x < 6; x++)
 
 7)
 
-for (x = 19; x > 9; x--)
+for(x = 19; x > 9; x--)
 {
   if (x == 11);
     continue;
@@ -117,7 +117,7 @@ for (x = 19; x > 9; x--)
 
 8)
 
-for (int x = 5; x <= 25; x+=5)
+for(int x = 5; x <= 25; x+=5)
 {
   print(x);
 }
@@ -132,7 +132,7 @@ for (int x = 5; x <= 25; x+=5)
 
 9)
 
-for (int x = 49; x >= 7; x-=7)
+for(int x = 49; x >= 7; x-=7)
 {
   print(x);
 }
@@ -145,6 +145,25 @@ for (int x = 49; x >= 7; x-=7)
 21
 14
 7
+*/
+
+10)
+
+int numCharacters = 4
+
+void Start ()
+{
+  for(int x = 0; x < numEnemies; x++)
+  {
+    Debug.Log("Here is character number:" + x);
+  }
+}
+
+/* Outputs
+Here is character number 0
+Here is character number 1
+Here is character number 2
+Here is character number 3
 */
 
 using UnityEngine;
